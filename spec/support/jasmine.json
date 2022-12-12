@@ -1,0 +1,17 @@
+{
+    "spec_dir": "build/src/tests",
+    "spec_files": [
+      "**/*[Ss]pec.js"
+    ],
+    "specPattern": [
+      "tests/1-Productspec.js",
+      "tests/2-Userspec.js",
+      "tests/3-Orderspec.js"
+    
+    ],
+    "helpers": [
+      "helpers/**/*.js"
+    ],
+    "stopSpecOnExpectationFailure": false,
+    "random": true
+  }

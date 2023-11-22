@@ -3,6 +3,18 @@ The company stakeholders want to create an online storefront to showcase their g
 
 These are the notes from a meeting with the frontend developer that describe what endpoints the API needs to supply, as well as data shapes the frontend and backend have agreed to meet the requirements of the application. 
 
+## Technology Used
+#### Typescript is used for coding.
+#### Eslint is used for linting.
+#### prettier is used for formatting.
+#### Jasmine/supertest are used for Unit testing.
+#### Nodemon utility is used to detect code changes.
+#### NodeJs/Express is used for routing and HTTP utility methods.
+#### Dotenv is used for environment variables.
+#### Postgres is used for the database.
+#### db-migrate for database migrations.
+#### jsonwebtoken and bcrypt were used for authentications.
+
 ## API Endpoints
 #### Products
 - Index 

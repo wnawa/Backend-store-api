@@ -102,17 +102,17 @@ GET http://localhost:8080/Products
 GET http://localhost:8080/Products/3 
 
 ## END POINTS API URL for ORDER MODEL
-### 1-ADD NEW ORDER WITH NEW PRODUCT TO USER
+### ADD NEW ORDER WITH NEW PRODUCT TO USER
 POST http://localhost:8080/user/:userID/Order/:orderID/product
 #### Note: Add the following data in the body inputs to add product details to the cart of order 1 for testing
 {
 "quantity":"5",
 "productid":"3"
 }
-### 2-Gets EXISTING ORDER for user with userID
+### Get EXISTING ORDER for user with userID
 GET http://localhost:8080/user/:userID/Order 
 
-### 3-ADD NEW PRODUCT TO EXISTING ORDER 
+### ADD NEW PRODUCT TO EXISTING ORDER 
 POST http://localhost:8080/Order/:orderID/product  
 #### Note: Add the following data in the body inputs to add product details to the cart of order 1 for testing
 {

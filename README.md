@@ -1,6 +1,6 @@
-# API Requirements
+# API Description
 The company stakeholders want to create an online storefront to showcase their great product ideas. Users need to be able to browse an index of all products, see the specifics of a single product, and add products to an order that they can view in a cart page. I have been tasked with building the API that will support this application, 
-and I built a sample frontend too.
+and I built a sample frontend APP too.
 
 These are the notes that describe what endpoints the API needs to supply, as well as data shapes the frontend and backend have agreed to meet the requirements of the application. 
 
